@@ -1,0 +1,35 @@
+{
+    "name": "Legal Talk Listener",
+	"short_name": "LTL",
+    "version": "0.0.1",
+    "manifest_version": 2,
+	"description": "Listens for legal service statements and categorizes them",
+	"icons": { "16": "icons/ear16.png",
+               "32": "icons/ear32.png",
+               "48": "icons/ear48.png",
+               "64": "icons/ear64.png",
+              "128": "icons/ear128.png",
+              "256": "icons/ear256.png",
+              "512": "icons/ear512.png" },
+	"permissions": [
+		"activeTab",
+		"storage"
+	], 
+    "omnibox": { "keyword" : "start" },
+    "browser_action": {
+        "default_title": "Legal Talk Listener",
+        "default_popup": "html/popup.html"
+    },
+    "background": {
+        "scripts": ["js/jquery-2.1.4.min.js", 
+					"js/background.js"],
+        "persistent": false
+    },
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["js/jquery-2.1.4.min.js", 
+			   "js/content_script.js"]
+    }],
+    "devtools_page": "",
+	"web_accessible_resources": []
+}

@@ -1,0 +1,261 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#home_base {
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    display: block;
+}
+
+#top_light_grey {
+    width: 350px;
+    height: 245px;
+    background-color: #fafafa; 
+    display: block;
+}
+
+#bottom_dark_grey {
+    width: 350px;
+    height: 105px;
+    background-color: #dfdfdf;
+    display: block;
+}
+
+#grey_divider {
+    width: 350px;
+    height: 1px;
+    background-color: #bfbfbf;
+    display: block;
+}
+
+#shopping_bag_image {
+    /*float: right;
+    margin-right: 15px;
+    margin-top: -60px;*/
+    width: 150px;
+    margin: 0px;
+	position: absolute; 
+	top: 180; 
+	left: 190;
+}
+
+#logo_holder {
+    display: block;
+}
+#zyn {
+    display: inline-block;
+    font-size: 30px;
+    font-family: "Satisfy";
+    font-family: "Arial";
+    color: #000000;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#express {
+    display: inline-block;
+    font-size: 30px;
+    font-family: "Lora";
+    font-family: "Arial";
+    color: #000000;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+#user_info, #alert_info {
+	display: block;
+	font-size: 12px;
+    margin-left: 20px;
+	font-family: "Roboto";
+	font-family: "Helvetica";
+	color: #00C5CD;
+}
+
+#slogan_paragraph {
+    display: inline-block;
+    width: 170px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-family: "Open Sans";
+	font-family: "Helvetica";
+    color: #000000;
+}
+
+#signin_table {
+    /*float: left;
+    clear: both;
+    margin-top: -70px;
+    margin-left: 20px;*/
+	text-align: right;
+	position: absolute; 
+	top: 250; 
+	left: 20;
+}
+
+.table_label {
+    font-size: 13px;
+    font-family: "Arial";
+    color: #000000;
+	vertical-align: middle;
+}
+
+.input {
+	margin-top: 5px;
+	background: #ffffff;
+	border-radius: 2px;
+	font: 13px, "Times New Roman", Times, serif;
+	outline: none;
+	width: 150px;
+	height: 25px;
+	border:1px solid #999;
+	padding-left: 5px;
+}
+
+.input:focus {
+	background: #fafafa;
+}
+
+.input:hover{
+    background-color: #eeeeee;
+	color: #507050;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    
+    border-radius: 0px;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 13px;
+	
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+    cursor: pointer;
+    text-align: center;
+    
+    color: white;
+    background: #006666;
+    
+    border: 1px solid #006666;
+    box-shadow: 0 8px 8px -6px #888888;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.button:hover {
+	color: #444444;
+    background: #00C5CD;
+    border: 1px solid #00FFFF;
+}
+.button:active {
+    background: #004444;
+    border: 1px solid #004444;
+    color: #ffffff;
+    margin-top: 17px;
+    margin-left: 22px;
+    margin-right: -2px;
+    margin-bottom: -2px;
+}
+.button_text_holder {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.button_text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#cart_items_div_holder {
+    width: 445px;
+    height: 340px;
+	position: absolute; 
+	top: 70px; 
+	left: 20px;
+	z-index: 1;
+    padding: 0px;
+}
+#cart_items_div {
+    width: 100%;
+    height: 100%;
+}
+#cart_items_div_sub1 {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    overflow-y: auto;
+    padding: 10px;
+	border: 1px solid #f0f0f0;
+    box-shadow: 0 8px 8px -6px #888888;
+    font-size: 12px;
+}
+#cart_items_div_sub2 {
+    width: 100%;
+}
+
+.property_div {
+	text-align: top; 
+}
+
+.prop_image, .prop_container {
+	display: inline-block;
+	vertical-align: top; 
+}
+
+.prop_image {
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.address, .city{
+	text-transform: capitalize
+}
+
+.property_bar {
+	height: 1px;
+	background-color: #aaaaaa;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#reject_cart_button:hover {
+    background: #ff4000;
+	color: #ffffff;
+}
+
+#offer_div {
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #444444;
+    font-family: 'Arial';
+    font-size: 13px;
+}
+
+#message_div {
+	margin-left: 20px;
+	margin-top: 15px;
+	color: #444444;
+    font-family: 'Arial';
+    font-size: 13px;
+}
+
+#offer_perc {
+	width: 40px;
+	text-align: center; 
+}
+
+.prompt {
+	margin-right: 10px;
+	margin-left: 20px;
+}
